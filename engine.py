@@ -5,7 +5,7 @@ import random
 pygame.init()
 
 screen = pygame.display.set_mode((300, 600))
-pygame.display.set_caption("Tetris Beta V.build(0.0)")
+pygame.display.set_caption("Tetris V(1.0)")
 clock = pygame.time.Clock()
 
 grid = [[0]*10 for _ in range(20)]
