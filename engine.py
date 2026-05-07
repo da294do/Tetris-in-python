@@ -18,8 +18,6 @@ pygame.time.set_timer(TickEvent, 500)
 Square = pygame.image.load("assets/square.png")
 ShrinkedSquare = pygame.transform.scale(Square, (30, 30))
 
-Logo = pygame.image.load("assets/Logo.png")
-lg = pygame.transform.scale(Logo, (200, 100))
 
 Forms = {
     "Square":  [[5, 10], [6, 10], [5, 9],  [6, 9]],
@@ -129,7 +127,6 @@ while running:
     clock.tick(60)
 
     screen.fill((255, 255, 255))
-    screen.blit(lg, (45, 0))
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
