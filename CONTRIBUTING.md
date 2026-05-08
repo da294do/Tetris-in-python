@@ -1,2 +1,2 @@
 CONTRIBUTORS:
-  da294do
+- da294do
