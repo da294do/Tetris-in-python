@@ -6,5 +6,5 @@ Usage:
  Launch engine.exe with the assets folder in the same path
 
 Controls:
-  Space = rotate blocks
-  arrows = move the blocks
+- Space: rotate blocks
+- Arrows: move the blocks
